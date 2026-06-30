@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0153/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0153/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 修真歷驗鈔圖
+  date: '2015-08-28 23:39:13.843602'
+  source:
+    repository: kanripo
+    path: KR5a0153
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0153_000-ZTDZ.yaml, hash: 'sha256:b2b1ea31b19c4061fe0956d6a3a14df0b12135a433c4ab676412061837610370'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0153_000-ZTDZ.markers.yaml, hash: 'sha256:87198ef47a083b9a47665dbb8a3d527cb67e3d266f45c7ee17d928a69235ea55'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0153_SJB_000-030110b
+    span:
+    - body
+    - 0
+    - 3594
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:75381ee57ee087ffd055bd4d46a60d7d62fc928bde904b9599cea9be9abef5a1
